@@ -1,0 +1,75 @@
+# dns.google (DoH) で 2026-11-07 に取得した HTTPS（type 65）問い合わせの応答。
+# 形式: 問い合わせ名 | Status | AD(1/0) | "type 所有者名 RDATA" を " || " で連結（Answer セクションそのまま。CNAME を含む）
+# Status 3 = NXDOMAIN、Answer 空 = NOERROR/NODATA
+google.com | 0 | 0 | 65 google.com. 1 . alpn=h2,h3
+www.google.com | 0 | 0 | 65 www.google.com. 1 . alpn=h2,h3
+microsoft.com | 0 | 0 |
+www.microsoft.com | 0 | 0 | 5 www.microsoft.com. www.microsoft.com-c-3.edgekey.net. || 5 www.microsoft.com-c-3.edgekey.net. e13678.dscb.akamaiedge.net.
+apple.com | 0 | 0 |
+www.apple.com | 0 | 0 | 5 www.apple.com. www-apple-com.v.aaplimg.com. || 5 www-apple-com.v.aaplimg.com. www.apple.com.edgekey.net. || 5 www.apple.com.edgekey.net. e6858.dsce9.akamaiedge.net.
+amazon.com | 0 | 0 |
+www.amazon.com | 0 | 0 | 5 www.amazon.com. tp.47cf2c8c9-frontier.amazon.com. || 5 tp.47cf2c8c9-frontier.amazon.com. www.amazon.com.edgekey.net. || 5 www.amazon.com.edgekey.net. e15316.dsca.akamaiedge.net.
+cloudflare.com | 0 | 1 | 65 cloudflare.com. 1 . alpn=h3,h2 ipv4hint=104.16.132.229,104.16.133.229 ipv6hint=2606:4700::6810:84e5,2606:4700::6810:85e5
+www.cloudflare.com | 0 | 1 | 65 www.cloudflare.com. 1 . alpn=h3,h2 ipv4hint=104.16.123.96,104.16.124.96 ipv6hint=2606:4700::6810:7b60,2606:4700::6810:7c60
+github.com | 0 | 0 |
+www.github.com | 0 | 0 | 5 www.github.com. github.com.
+salesforce.com | 0 | 1 |
+www.salesforce.com | 0 | 0 | 5 www.salesforce.com. www.salesforce.com.edgekey.net. || 5 www.salesforce.com.edgekey.net. e63490.dsca.akamaiedge.net.
+zoom.us | 0 | 0 |
+www.zoom.us | 0 | 0 |
+slack.com | 0 | 1 |
+www.slack.com | 0 | 1 |
+okta.com | 0 | 0 |
+www.okta.com | 0 | 0 | 5 www.okta.com. www.okta.com.cdn.cloudflare.net.
+cybozu.com | 0 | 0 |
+www.cybozu.com | 0 | 0 | 5 www.cybozu.com. d2g7xgnigp9rva.cloudfront.net. || 65 d2g7xgnigp9rva.cloudfront.net. 1 . alpn=h2
+yahoo.co.jp | 0 | 0 |
+www.yahoo.co.jp | 0 | 0 | 5 www.yahoo.co.jp. edge12.g.yimg.jp.
+softbank.jp | 0 | 0 |
+www.softbank.jp | 0 | 0 | 5 www.softbank.jp. frtwww.sjp.akadns.net. || 5 frtwww.sjp.akadns.net. sjpwww.softbank.jp.edgekey.net. || 5 sjpwww.softbank.jp.edgekey.net. e10028.dscb.akamaiedge.net.
+mufg.jp | 0 | 1 |
+www.mufg.jp | 0 | 0 | 5 www.mufg.jp. www.mufg.jp.edgekey.net. || 5 www.mufg.jp.edgekey.net. e14981.b.akamaiedge.net.
+smbc.co.jp | 0 | 1 |
+www.smbc.co.jp | 0 | 0 | 5 www.smbc.co.jp. www.smbc.co.jp.edgekey.net. || 5 www.smbc.co.jp.edgekey.net. e3096.dsca.akamaiedge.net.
+ana.co.jp | 0 | 0 |
+www.ana.co.jp | 0 | 0 | 5 www.ana.co.jp. www.ana.co.jp.edgekey.net. || 5 www.ana.co.jp.edgekey.net. e1883.b.akamaiedge.net.
+jal.co.jp | 0 | 0 |
+www.jal.co.jp | 0 | 0 | 5 www.jal.co.jp. www.jal.co.jp.edgekey.net. || 5 www.jal.co.jp.edgekey.net. e17033.a.akamaiedge.net.
+rakuten.co.jp | 0 | 0 |
+www.rakuten.co.jp | 0 | 0 | 5 www.rakuten.co.jp. ovsan-sni-ec1.rakuten.edgekey.net. || 5 ovsan-sni-ec1.rakuten.edgekey.net. e290691.a.akamaiedge.net.
+freee.co.jp | 0 | 0 |
+www.freee.co.jp | 0 | 0 | 5 www.freee.co.jp. www.freee.co.jp-dsa.edgekey.net. || 5 www.freee.co.jp-dsa.edgekey.net. e4644.dscb.akamaiedge.net.
+sakura.ad.jp | 0 | 0 |
+www.sakura.ad.jp | 0 | 0 | 5 www.sakura.ad.jp. site-113401987442.gslb12.sakura.ne.jp.
+biglobe.ne.jp | 0 | 0 |
+www.biglobe.ne.jp | 0 | 0 |
+ocn.ne.jp | 0 | 0 |
+www.ocn.ne.jp | 0 | 0 |
+so-net.ne.jp | 0 | 0 |
+www.so-net.ne.jp | 0 | 0 | 5 www.so-net.ne.jp. d17sjz6bdztho2.cloudfront.net. || 65 d17sjz6bdztho2.cloudfront.net. 1 . alpn=h2
+line.me | 0 | 0 |
+www.line.me | 0 | 0 | 5 www.line.me. www-line-me-flava-cloud-com.fcdn.flava-cloud.com. || 5 www-line-me-flava-cloud-com.fcdn.flava-cloud.com. dj6jito9qvx8o.cloudfront.net. || 65 dj6jito9qvx8o.cloudfront.net. 1 . alpn=h2,h3
+japanpost.jp | 0 | 0 |
+www.japanpost.jp | 0 | 0 | 5 www.japanpost.jp. 4r8ek4q.x.incapdns.net.
+kddi.com | 0 | 0 |
+www.kddi.com | 0 | 0 |
+mercari.com | 0 | 0 |
+www.mercari.com | 0 | 0 | 5 www.mercari.com. www.mercari.com.cdn.cloudflare.net. || 65 www.mercari.com.cdn.cloudflare.net. 1 . alpn=h2 ipv4hint=104.18.39.11,172.64.148.245
+moneyforward.com | 0 | 0 |
+www.moneyforward.com | 0 | 0 |
+nifty.com | 0 | 0 |
+www.nifty.com | 0 | 0 |
+ntt.com | 0 | 0 |
+www.ntt.com | 0 | 0 | 5 www.ntt.com. www.ntt.com.edgekey.net. || 5 www.ntt.com.edgekey.net. e7953.dscb.akamaiedge.net.
+ac-5.net | 0 | 0 | 65 ac-5.net. 1 . alpn=h3,h2 ipv4hint=104.21.37.142,172.67.209.42 ech=AEX+DQBBbQAgACDPl6q/TzSEOl/lSZrnK3iyyWRYuSir/EOPKwFMwLKBcwAEAAEAAQASY2xvdWRmbGFyZS1lY2guY29tAAA= ipv6hint=2606:4700:3034::6815:258e,2606:4700:3036::ac43:d12a
+www.ac-5.net | 0 | 0 | 65 www.ac-5.net. 1 . alpn=h3,h2 ipv4hint=104.21.37.142,172.67.209.42 ech=AEX+DQBBFwAgACACfIyBRz7XyngGg1m4NQvVW/O+9jVd/xFIk3tBOZTKXQAEAAEAAQASY2xvdWRmbGFyZS1lY2guY29tAAA= ipv6hint=2606:4700:3034::6815:258e,2606:4700:3036::ac43:d12a
+ietf.org | 0 | 1 | 65 ietf.org. 1 . alpn=h3,h2 ipv4hint=104.16.44.99,104.16.45.99 ipv6hint=2606:4700::6810:2c63,2606:4700::6810:2d63
+www.ietf.org | 0 | 1 | 65 www.ietf.org. 1 . alpn=h3,h2 ipv4hint=104.16.44.99,104.16.45.99 ipv6hint=2606:4700::6810:2c63,2606:4700::6810:2d63
+crypto.cloudflare.com | 0 | 1 | 65 crypto.cloudflare.com. 1 . alpn=h2 ipv4hint=104.18.6.137,104.18.7.137 ech=AEX+DQBBFwAgACACfIyBRz7XyngGg1m4NQvVW/O+9jVd/xFIk3tBOZTKXQAEAAEAAQASY2xvdWRmbGFyZS1lY2guY29tAAA= ipv6hint=2606:4700::6812:689,2606:4700::6812:789
+www.crypto.cloudflare.com | 0 | 1 | 65 www.crypto.cloudflare.com. 1 . alpn=h2 ipv4hint=104.18.6.137,104.18.7.137 ech=AEX+DQBBbQAgACDPl6q/TzSEOl/lSZrnK3iyyWRYuSir/EOPKwFMwLKBcwAEAAEAAQASY2xvdWRmbGFyZS1lY2guY29tAAA= ipv6hint=2606:4700::6812:689,2606:4700::6812:789
+defo.ie | 0 | 1 | 65 defo.ie. 1 . ipv4hint=213.108.108.101 ech=AMD+DQA8sQAgACDvExg/nM5JchtB7qkHkeXo57shfveDYR921ijBEPrScwAEAAEAAQANY292ZXIuZGVmby5pZQAA/g0APLsAIAAgllnAoC1OrasFLaKwkB6zUaZwxQotX/0fajyWHz6W6HIABAABAAEADWNvdmVyLmRlZm8uaWUAAP4NADzTACAAIPBCrheTHHqlPJ5WZ3Ml6B9LVxe5fA9oR527AH6WTkl/AAQAAQABAA1jb3Zlci5kZWZvLmllAAA= ipv6hint=2a00:c6c0:0:116:5::10
+www.defo.ie | 0 | 1 | 5 www.defo.ie. defo.ie. || 65 defo.ie. 1 . ipv4hint=213.108.108.101 ech=AMD+DQA8sQAgACDvExg/nM5JchtB7qkHkeXo57shfveDYR921ijBEPrScwAEAAEAAQANY292ZXIuZGVmby5pZQAA/g0APLsAIAAgllnAoC1OrasFLaKwkB6zUaZwxQotX/0fajyWHz6W6HIABAABAAEADWNvdmVyLmRlZm8uaWUAAP4NADzTACAAIPBCrheTHHqlPJ5WZ3Ml6B9LVxe5fA9oR527AH6WTkl/AAQAAQABAA1jb3Zlci5kZWZvLmllAAA= ipv6hint=2a00:c6c0:0:116:5::10
+cloudflare-ech.com | 0 | 0 | 65 cloudflare-ech.com. 1 . alpn=h3,h2 ipv4hint=104.18.10.118,104.18.11.118 ech=AEX+DQBBbQAgACDPl6q/TzSEOl/lSZrnK3iyyWRYuSir/EOPKwFMwLKBcwAEAAEAAQASY2xvdWRmbGFyZS1lY2guY29tAAA= ipv6hint=2606:4700::6812:a76,2606:4700::6812:b76
+www.cloudflare-ech.com | 3 | 0 |
+tls-ech.dev | 0 | 0 | 65 tls-ech.dev. 1 . ech=AEn+DQBFKwAgACABWIHUGj4u+PIggYXcR5JF0gYk3dCRioBW8uJq9H4mKAAIAAEAAQABAANAEnB1YmxpYy50bHMtZWNoLmRldgAA
+www.tls-ech.dev | 0 | 0 | 65 www.tls-ech.dev. 1 . ech=AEn+DQBFKwAgACABWIHUGj4u+PIggYXcR5JF0gYk3dCRioBW8uJq9H4mKAAIAAEAAQABAANAEnB1YmxpYy50bHMtZWNoLmRldgAA
